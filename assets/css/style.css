@@ -1,0 +1,59 @@
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: starbim;
+    color: azure;
+    -webkit-text-stroke-color: #240046;
+    -webkit-text-stroke-width: 1px;
+    
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: fantasy;
+    -webkit-text-stroke-color: #240046;
+    -webkit-text-stroke-width: 1px;
+    color: azure;
+    padding: 3px;
+}
+form fieldset{
+    background-color:#7b2cbf;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    margin: auto;
+    padding: 20px;
+    gap: 20px;
+    border: ridge 3px #240046;
+    text-align: center;
+    font-family: fantasy;
+    -webkit-text-stroke-color: #240046;
+    -webkit-text-stroke-width: 1px;
+    color: azure;
+    font-size: 20px;
+
+}
+form fieldset input[type="submit"]{
+    width: 15vw;
+    height: 10vh;
+    margin: auto;
+    text-align: center;
+}
+form fieldset input[type="submit"]:hover{
+    background-color: #e0aaff;
+    cursor: pointer;
+    text-align: center;
+    
+}
+body{
+    background-image: url(../imagens/depositphotos_164505486-stock-photo-casino-purple-background.jpg);
+    font-family: webp;
+}
+#hau{
+    color: white;
+    font-size: 70px;
+}
+@font-face {
+    font-family:starbim;
+    src: url(../imagens/fontes/starbim/Starbim.ttf);
+}
